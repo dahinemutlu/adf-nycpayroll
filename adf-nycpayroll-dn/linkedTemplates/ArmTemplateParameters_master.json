@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-nycpayroll-dn"
+		},
+		"ls_db_nycpayroll_connectionString": {
+			"value": ""
+		},
+		"ls_sanycpayrolldn_accountKey": {
+			"value": ""
+		},
+		"ls_sanycpayrollsynapsedn_accountKey": {
+			"value": ""
+		},
+		"ls_sanycpayrolldn_properties_typeProperties_url": {
+			"value": "https://sanycpayrolldn.dfs.core.windows.net/"
+		},
+		"ls_sanycpayrollsynapsedn_properties_typeProperties_url": {
+			"value": "https://sanycpayrollsynapsedn.dfs.core.windows.net/"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
